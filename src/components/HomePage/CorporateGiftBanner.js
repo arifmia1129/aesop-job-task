@@ -8,7 +8,7 @@ const CorporateGiftBanner = () => {
                 <small className='font-bold'>Tokens of appreciation</small>
                 <h3 className='text-3xl py-10'>Corporate gifts</h3>
                 <p>Find a variety of gift-giving options, ideal for honouring treasured colleagues and clients. Trained consultants will be pleased to guide your selections and assist with delivery.</p>
-                <button className='border flex justify-between w-72 p-3 items-center  border-black mt-10'>
+                <button className='border flex justify-between w-[90vw] lg:w-72 p-3 items-center  border-black mt-10'>
                     <p>Learn more about this service</p>
                     <BsArrowRight />
                 </button>

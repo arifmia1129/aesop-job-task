@@ -25,7 +25,7 @@ const ProductsCarousel = () => {
     return (
         <Carousel
             className='my-20'
-            swipeable={false}
+            swipeable={true}
             draggable={false}
             responsive={responsive}
             infinite={true}
