@@ -4,6 +4,7 @@ import GiftBanner from '../../components/HomePage/GiftBanner';
 import GiftFinderBanner from '../../components/HomePage/GiftFinderBanner';
 import ProductsCarousel from '../../components/HomePage/ProductsCarousel';
 import StoreLocator from '../../components/HomePage/StoreLocator';
+import SuperlativeSelectionBanner from '../../components/HomePage/SuperlativeSelectionBanner';
 import TopBanner from '../../components/HomePage/TopBanner';
 import VideoBanner from '../../components/HomePage/VideoBanner';
 import FirstTopTitle from '../../components/Shared/FirstTopTitle';
@@ -23,6 +24,11 @@ const Home = () => {
             <CorporateGiftBanner />
             <ProductsCarousel />
             <StoreLocator />
+
+            <div>
+                <h3 className='font-bold text-2xl ml-10'>A superlative selection</h3>
+                <SuperlativeSelectionBanner />
+            </div>
         </div>
     );
 };
