@@ -1,4 +1,5 @@
 import React from 'react';
+import CorporateGiftBanner from '../../components/HomePage/CorporateGiftBanner';
 import GiftBanner from '../../components/HomePage/GiftBanner';
 import GiftFinderBanner from '../../components/HomePage/GiftFinderBanner';
 import TopBanner from '../../components/HomePage/TopBanner';
@@ -17,6 +18,7 @@ const Home = () => {
             <VideoBanner />
             <GiftFinderBanner />
             <GiftBanner />
+            <CorporateGiftBanner />
         </div>
     );
 };
