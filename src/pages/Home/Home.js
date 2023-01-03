@@ -1,4 +1,5 @@
 import React from 'react';
+import GiftBanner from '../../components/HomePage/GiftBanner';
 import GiftFinderBanner from '../../components/HomePage/GiftFinderBanner';
 import TopBanner from '../../components/HomePage/TopBanner';
 import VideoBanner from '../../components/HomePage/VideoBanner';
@@ -15,6 +16,7 @@ const Home = () => {
             <TopBanner />
             <VideoBanner />
             <GiftFinderBanner />
+            <GiftBanner />
         </div>
     );
 };
