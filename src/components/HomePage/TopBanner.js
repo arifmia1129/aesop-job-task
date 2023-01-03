@@ -3,7 +3,7 @@ import { BsArrowRight } from 'react-icons/bs';
 
 const TopBanner = () => {
     return (
-        <div className='lg:h-[70vh] lg:flex bg-[#D8C19E]'>
+        <div className='lg:h-[70vh] lg:flex bg-[#D8C19E] mb-10'>
             <div className='lg:flex items-center'>
                 <div className='lg:w-[20vw] flex justify-center p-5 lg:p-0'>
                     <h3><span className='text-3xl'>Aesop</span><sub>&reg;</sub></h3>
