@@ -13,7 +13,7 @@ const CorporateGiftBanner = () => {
                     <BsArrowRight />
                 </button>
             </div>
-            <img className='w-[60vw]' src="https://www.aesop.com/u1nb1km7t5q7/6FbqraGc96gts4wqXBENFI/7af21353122e60409a730e81ba9e434a/Aesop_Gift_Kits_2022-23_Web_Homepage_Secondary_Corporate_Gifting_Mid_Desktop_2560x1440px.jpg" alt="" />
+            <img className='lg:w-[60vw]' src="https://www.aesop.com/u1nb1km7t5q7/6FbqraGc96gts4wqXBENFI/7af21353122e60409a730e81ba9e434a/Aesop_Gift_Kits_2022-23_Web_Homepage_Secondary_Corporate_Gifting_Mid_Desktop_2560x1440px.jpg" alt="" />
         </div>
     );
 };

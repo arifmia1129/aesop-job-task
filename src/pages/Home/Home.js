@@ -2,6 +2,7 @@ import React from 'react';
 import CorporateGiftBanner from '../../components/HomePage/CorporateGiftBanner';
 import GiftBanner from '../../components/HomePage/GiftBanner';
 import GiftFinderBanner from '../../components/HomePage/GiftFinderBanner';
+import ProductsCarousel from '../../components/HomePage/ProductsCarousel';
 import TopBanner from '../../components/HomePage/TopBanner';
 import VideoBanner from '../../components/HomePage/VideoBanner';
 import FirstTopTitle from '../../components/Shared/FirstTopTitle';
@@ -19,6 +20,7 @@ const Home = () => {
             <GiftFinderBanner />
             <GiftBanner />
             <CorporateGiftBanner />
+            <ProductsCarousel />
         </div>
     );
 };
